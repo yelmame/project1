@@ -6,7 +6,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    step:
+    steps:
       - name: Checkout Code
         uses: actions/checkout@v4
       - name: Execute Remote ssh 
