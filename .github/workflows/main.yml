@@ -10,7 +10,7 @@ jobs:
     step:
       - name: Checkout Code
         uses: actions/checkout@v4
-      - name: Execute Remote ssh setup on ec2 cancel-timeout-minutes: 
+      - name: Execute Remote ssh 
         uses: actions/ssh-action@v4
         with:
           host: $${{ secrets.project1 }}
