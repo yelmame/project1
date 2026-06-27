@@ -6,7 +6,6 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     step:
       - name: Checkout Code
         uses: actions/checkout@v4
