@@ -13,7 +13,7 @@ jobs:
         uses: actions/ssh-action@v4
         with:
           host: $${{ secrets.project1 }}
-          username: ${{ secret.ec2_username }}
+          username: ${{ secrets.ec2_username }}
           key: $ {{ secrets.ec2_ssh_key }}
           script: |
               cd ~/project1
